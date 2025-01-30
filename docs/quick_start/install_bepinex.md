@@ -10,7 +10,7 @@ Installing BepInEx is first step in the [Overall Goals](/#overall-goals).
 ## How to download
 
 BepInEx is distributed as a zip file which contains the necessary bootstrapping code to mod the game.
-  - Download `BepInEx-Unity.IL2CPP-win-x86-....zip` from [builds.bepinex.dev](https://builds.bepinex.dev/projects/bepinex_be).
+  - Download `BepInEx-Unity.IL2CPP-win-x86-....zip` from [github.com](https://github.com/BepInEx/BepInEx/releases/v6.0.0-pre.2/).
 
 
 ### Installing BepInEx
