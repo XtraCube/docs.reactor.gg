@@ -63,14 +63,14 @@ In the `.csproj` file, there are few important properties:
 
   <PropertyGroup>
     <GamePlatform Condition="'$(GamePlatform)' == ''">Steam</GamePlatform>
-    <GameVersion Condition="'$(GamePlatform)' == 'Steam'">2021.6.30</GameVersion>
-    <GameVersion Condition="'$(GamePlatform)' == 'Itch'">2021.6.30</GameVersion>
+    <GameVersion Condition="'$(GamePlatform)' == 'Steam'">2024.10.29</GameVersion>
+    <GameVersion Condition="'$(GamePlatform)' == 'Itch'">2024.10.29</GameVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Reactor" Version="2.0.0" />
-    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.662" Private="false" ExcludeAssets="runtime;native" />
-    <PackageReference Include="AmongUs.GameLibs.Steam" Version="2022.10.25" PrivateAssets="all" />
+    <PackageReference Include="Reactor" Version="2.3.1" />
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.697" Private="false" ExcludeAssets="runtime;native" />
+    <PackageReference Include="AmongUs.GameLibs.Steam" Version="2024.10.29" PrivateAssets="all" />
 
     <PackageReference Include="BepInEx.AutoPlugin" Version="1.1.0" PrivateAssets="all" />
     <PackageReference Include="BepInEx.IL2CPP.MSBuild" Version="2.0.1" PrivateAssets="all" ExcludeAssets="runtime" />
